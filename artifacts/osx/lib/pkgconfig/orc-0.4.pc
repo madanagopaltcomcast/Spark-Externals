@@ -1,4 +1,4 @@
-prefix=/Users/travis/build/pxscene/Spark-Externals/extlibs
+prefix=/Users/travis/build/madanagopalt/Spark-Externals/extlibs
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include/orc-0.4

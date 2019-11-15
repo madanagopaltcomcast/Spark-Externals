@@ -1,4 +1,4 @@
-prefix=/Users/travis/build/pxscene/Spark-Externals/extlibs
+prefix=/Users/travis/build/madanagopalt/Spark-Externals/extlibs
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include/gstreamer-1.0
@@ -12,6 +12,6 @@ Description: Tag base classes and helper functions
 Requires: gstreamer-1.0
 Version: 1.16.0
 Libs: -L${libdir} -lgsttag-1.0
-Libs.private: -L/Users/travis/build/pxscene/Spark-Externals/extlibs/lib -lz
+Libs.private: -L/Users/travis/build/madanagopalt/Spark-Externals/extlibs/lib -lz
 Cflags: -I${includedir}
 

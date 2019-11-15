@@ -2,6 +2,6 @@
 Name: Graphite2
 Description: Font rendering engine for Complex Scripts
 Version: 3.0.1
-Libs: -L/Users/travis/build/pxscene/Spark-Externals/extlibs/lib -lgraphite2
-Cflags: -I/Users/travis/build/pxscene/Spark-Externals/extlibs/include
+Libs: -L/Users/travis/build/madanagopalt/Spark-Externals/extlibs/lib -lgraphite2
+Cflags: -I/Users/travis/build/madanagopalt/Spark-Externals/extlibs/include
 

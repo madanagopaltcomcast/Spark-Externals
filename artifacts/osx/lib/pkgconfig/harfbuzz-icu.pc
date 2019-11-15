@@ -1,7 +1,7 @@
-prefix=/Users/travis/build/pxscene/Spark-Externals/extlibs
-exec_prefix=/Users/travis/build/pxscene/Spark-Externals/extlibs
-libdir=/Users/travis/build/pxscene/Spark-Externals/extlibs/lib
-includedir=/Users/travis/build/pxscene/Spark-Externals/extlibs/include
+prefix=/Users/travis/build/madanagopalt/Spark-Externals/extlibs
+exec_prefix=/Users/travis/build/madanagopalt/Spark-Externals/extlibs
+libdir=/Users/travis/build/madanagopalt/Spark-Externals/extlibs/lib
+includedir=/Users/travis/build/madanagopalt/Spark-Externals/extlibs/include
 
 Name: harfbuzz
 Description: HarfBuzz text shaping library ICU integration

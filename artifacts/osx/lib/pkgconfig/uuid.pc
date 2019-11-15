@@ -27,7 +27,7 @@
 ##  uuid.pc.in: pkg-config(1) specification
 ##
 
-prefix=/Users/travis/build/pxscene/Spark-Externals/extlibs
+prefix=/Users/travis/build/madanagopalt/Spark-Externals/extlibs
 exec_prefix=${prefix}
 includedir=${prefix}/include
 libdir=${exec_prefix}/lib

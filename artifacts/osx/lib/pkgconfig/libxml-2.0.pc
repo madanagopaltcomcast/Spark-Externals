@@ -1,4 +1,4 @@
-prefix=/Users/travis/build/pxscene/Spark-Externals/extlibs
+prefix=/Users/travis/build/madanagopalt/Spark-Externals/extlibs
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
@@ -9,5 +9,5 @@ Version: 2.9.4
 Description: libXML library version2.
 Requires:
 Libs: -L${libdir} -lxml2
-Libs.private:  -lpthread -L/Users/travis/build/pxscene/Spark-Externals/extlibs/lib -lz -L/usr/local/Cellar/xz/5.2.4/lib -llzma  -liconv -lm  
+Libs.private:  -lpthread -L/Users/travis/build/madanagopalt/Spark-Externals/extlibs/lib -lz -L/usr/local/Cellar/xz/5.2.4/lib -llzma  -liconv -lm  
 Cflags: -I${includedir}/libxml2 

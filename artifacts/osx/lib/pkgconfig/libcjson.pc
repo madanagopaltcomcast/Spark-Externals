@@ -1,5 +1,5 @@
-libdir=/Users/travis/build/pxscene/Spark-Externals/extlibs/lib
-includedir=/Users/travis/build/pxscene/Spark-Externals/extlibs/include
+libdir=/Users/travis/build/madanagopalt/Spark-Externals/extlibs/lib
+includedir=/Users/travis/build/madanagopalt/Spark-Externals/extlibs/include
 
 Name: libcjson
 Version: 1.7.12
