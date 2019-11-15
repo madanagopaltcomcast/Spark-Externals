@@ -43,3 +43,4 @@ then
   sudo /usr/sbin/DevToolsSecurity --enable
   cmake --version
 fi
+ln -s /Users/travis/build/madanagopalt /Users/travis/build/pxscene
