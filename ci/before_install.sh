@@ -43,4 +43,6 @@ then
   sudo /usr/sbin/DevToolsSecurity --enable
   cmake --version
 fi
+cd /Users/travis/build
+ls -rlt
 ln -s /Users/travis/build/madanagopaltcomcast /Users/travis/build/pxscene
