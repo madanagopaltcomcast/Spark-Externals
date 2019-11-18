@@ -21,6 +21,9 @@ checkError()
 }
 
 echo "******************** Building externals ********************" > $BUILDLOGS
+cd /Users/travis/build
+ls -rlt
+ln -s /Users/travis/build/madanagopaltcomcast /Users/travis/build/pxscene
 cd $TRAVIS_BUILD_DIR
 ./build.sh>>$BUILDLOGS
 checkError $? "building externals failed" "compilation error" "Need to build the externals directory locally in $TRAVIS_OS_NAME"
