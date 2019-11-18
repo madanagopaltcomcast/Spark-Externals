@@ -701,6 +701,7 @@ if [ $libnode_build -eq 1 ]; then
   cp ${NODE_DIR}/src/stream_wrap.h ${EXT_INSTALL_INCLUDE_PATH}/node/.
   cp ${NODE_DIR}/src/tcp_wrap.h ${EXT_INSTALL_INCLUDE_PATH}/node/.
   cp ${NODE_DIR}/src/node_crypto.h ${EXT_INSTALL_INCLUDE_PATH}/node/.
+  
   if [ "$(uname)" != "Darwin" ]
   then
     cp -R ${NODE_LIB_DIR}/libnode.so.64 ${EXT_INSTALL_LIB_PATH}/.
